@@ -1,16 +1,15 @@
-## AWS Amplify Next.js (App Router) Starter Template
+## SimSCore based on the AWS Amplify Next.js (App Router) Starter Template
 
-This repository provides a starter template for creating applications using Next.js (App Router) and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
+This repository provides functionality to calculate similarity scores between different ideas or feedback.
+Technically it is based on a starter template for creating applications using Next.js (App Router) and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
 
-## Overview
+## Introduction
 
-This template equips you with a foundational Next.js application integrated with AWS Amplify, streamlined for scalability and performance. It is ideal for developers looking to jumpstart their project with pre-configured AWS services like Cognito, AppSync, and DynamoDB.
+Analysis of user sentiments using a centroid analysis. For more information, check in [RnDAO](https://www.rndao.io/)'s discord channel.
 
-## Features
-
-- **Authentication**: Setup with Amazon Cognito for secure user authentication.
-- **API**: Ready-to-use GraphQL endpoint with AWS AppSync.
-- **Database**: Real-time database powered by Amazon DynamoDB.
+## Interactive Analysis
+If you just want to run an analysis without using the website, feel free to open and play around with this interactive python notebook:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/derjogi/amplify-next-simscore/HEAD?labpath=%2Fapi%2Fcentroid_plots.ipynb)
 
 ## Deploying to AWS
 
